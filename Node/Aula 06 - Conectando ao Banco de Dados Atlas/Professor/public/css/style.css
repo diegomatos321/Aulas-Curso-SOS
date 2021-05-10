@@ -1,0 +1,113 @@
+body{
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url("../imagens/background.jpg"); 
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 2rem;
+}
+
+/* Main */
+.main{
+    background-image: url("../imagens/background_1.jpg");
+    background-size: cover;
+    border-radius: 1em;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 1em;
+    margin: auto;
+}
+
+.main-title{
+    text-align: center;
+}
+
+hr{
+    margin: 1rem 0 1rem 0;
+    max-width: 600px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item{
+    margin: 1em;
+    text-align: center;
+}
+
+/* Formulario Section */
+
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+    justify-items: center;
+    margin: 1em;
+}
+
+.flex-container.flex-cadastro{
+    justify-content: space-between;
+}
+
+fieldset legend{
+    font-size: var(--tamanhoH3)
+}
+
+.imgClasse{
+    text-align: center;
+}
+
+.imgClasse img{
+    overflow: hidden;
+    padding: 1rem;
+    background-image: url("/imagens/background-forest.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border: 2px solid black;
+    border-radius: 1em;
+    max-width: 202px;
+    min-height: 305px;
+}
+
+.imgClasse img:hover {
+    box-shadow: 0 0 5px 2px yellow;
+}
+
+.classe-ativada{
+    box-shadow: 0 0 5px 2px yellow;
+}
+
+.embeddedVideo{
+    width: 90%;
+    display:block;
+    border-radius: 2em;
+    margin: auto;
+}
+
+.btnConfirmar{
+    float: right;
+    background-color: green;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+/* Formulario Section End */
+
+/* Main End */
+
+/* Footer */
+footer{
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* Footer End */

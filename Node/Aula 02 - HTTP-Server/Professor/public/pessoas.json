@@ -1,0 +1,10 @@
+{
+    "Diego": {
+        "idade": 19,
+        "sexo":"Masculino"
+    },
+    "Arthur":{
+        "idade": 19,
+        "sexo":"Masculino"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "introducao-ao-express",
+  "version": "1.0.0",
+  "description": "Introdução ao module express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Diego Matos",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

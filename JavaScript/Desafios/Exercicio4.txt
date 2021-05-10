@@ -1,0 +1,4 @@
+Exercício 4: Crie uma página de cadastro para sua empresa/site. Instruções:
+	1º: Crie um HTML, RESPONSIVO, que tenha uma área de apresentação do seu conteúdo e, pelo menos, 3 campos de preenchimento. Um do tipo texto, outro do tipo radio, e outro do tipo "dropdown" (dica: tag "select").
+	2º: Em sua página, coloque um botão de confirmação.
+	3º: Com sua página pronta. Crie um javascript responsável por criar um objeto com os dados cadastrados. Crie funções de validações para que o usuário nao esqueça de nenhum campo vazio.

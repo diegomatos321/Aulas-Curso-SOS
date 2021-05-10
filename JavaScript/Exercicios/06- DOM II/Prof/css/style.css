@@ -1,0 +1,65 @@
+@font-face{
+    src: url(../fonts/OldLondon.ttf);
+    font-family: oldLondon;
+}
+body{
+    background-image: url("../imagens/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    color: black;
+    text-align: center;
+    font: normal 16pt oldLondon;
+}
+main{
+    font: normal 18pt oldLondon;
+    background-image: url("../imagens/background_1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: 100% 100%;
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+}
+main:after{
+    content: "";
+    display: table;
+    clear:both
+}
+footer{
+    font: normal 16pt oldLondon;
+    clear: both;
+    color: whitesmoke;
+    text-align: center;
+}
+.container{
+    margin: 0 1% 0 1%;
+}
+.container-imagens{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
+}
+
+.imgClasses{
+    margin: auto;
+    justify-content: space-between;
+    border: 2px solid;
+    border-color: black;
+    background: burlywood;
+}
+.video{
+    margin-top: 1%;
+}
+.btnConfirmar{
+    clear:both;
+    float: right;
+    margin: 1% 1% 1% 1%;
+}

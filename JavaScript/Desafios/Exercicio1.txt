@@ -1,0 +1,24 @@
+Exercício 1: Desenvolver um programa que realize um estoque, simples, de loja ( Voces que decidem que tipo de loja é, ex: hotifruti, mercado...). Instruções:
+	1º: Através de uma função, o usuário de dizer qual produto deve ser estocado, não há necessidade de dizer a quantidade. Ex: GuardarNoEstoque("Banana"),
+	2º: A função deve armazenar o produto em uma array, responsável por guardar os produtos estocados.
+	3º: Agora, use "console.log([NomeDaArray])" para verificar se os produtos foram guardados corretamente.
+	4º: Antes de prosseguir, use o método ".length" para limpar a Array da seguinte forma:
+		meuEstoque.length = 0;
+	5º: Em seguida, crie uma array de produtos. Ex: 
+		let meusProdutos = ["Banana", "Pêra", "Uva", "Mamão", "Maçã"]
+	6º: Agora, usando loop, armazene todos os produtos dessa array dentro da Array responsável pelo estoque, através da função criada anteriormente. Ex:
+		meusProdutos.foreach((produto) =>{
+			GuardarNoEstoque(produto);
+		})
+	7º: Em seguida, use "console.log([NomeDaArray])" para verificar se os produtos foram guardados corretamente.
+	8º: Agora, usando os métodos próprios da array (como o "push"), crie uma nova função que remova o último item dessa Array.
+	9º: Em seguida, usando os métodos próprios da array (como o "push"), crie uma nova função que remova o primeiro item dessa Array.
+	10º: Agora, crie uma nova função que remova um item específico da Array.
+	11º: Antes de prosseguir, use o método ".length" para limpar a Array da seguinte forma:
+		meuEstoque.length = 0;
+	12º: Em seguida, crie uma Array de objetos, onde a propriedade desse objeto corresponde ao nome do produto, e o valor, à quantidade. Ex:
+		let meusNovosProdutos = [{Banana : 5}, {Pera : 20}, {Uva : 7}, {"Mamão" : 35}, {"Maçã" : 3}
+	13º: Agora, usando loop, armazene todos os produtos dessa nova array dentro da Array responsável pelo estoque, através da função criada anteriormente. Ex:
+		meusProdutos.foreach((produto) =>{
+			GuardarNoEstoque(produto);
+		})

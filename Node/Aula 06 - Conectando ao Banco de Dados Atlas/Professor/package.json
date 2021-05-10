@@ -1,0 +1,16 @@
+{
+  "name": "aula-sobre-restful-api",
+  "version": "1.0.0",
+  "description": "Aula sobre RESTful API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Diego Matos",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6",
+    "nodemon": "^2.0.4"
+  }
+}

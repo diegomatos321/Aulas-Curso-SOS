@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta dados -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Diego Matos" />
+    <meta
+      name="description"
+      content="Simples site de cadastro baseado em jogos de RPG"
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Jogo, Fantasia, Medieval, Jogo de Fantasia Medieval, Cadastro"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variaveis.css" />
+    <link rel="stylesheet" href="css/geral.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Jogo de Fantasia</title>
+  </head>
+
+  <body>
+    <div class="site">
+      <!-- Main -->
+      <main class="main container">
+        <h1 class="main-title">Jogo de Fantasia Medieval</h1>
+        <section class="apresentacao container">
+          <h2 class="title">Bem vindo aventureiro !</h2>
+          <hr />
+          <p>
+            Esse é um jogo de RPG baseado em turnos, nas regras de Dungeons and
+            Dragons 5Ed ! Vamos começar, primeiramente preencha os campos abaixo
+            para cadastrar seu aventureiro na Guilda !
+          </p>
+        </section>
+        <section class="cadastro container">
+          <form id="formulario" class="formulario" action="/cadastrar" method="POST">
+            <fieldset>
+              <legend>Dados do Jogador</legend>
+              <div class="flex-container flex-cadastro">
+                <div class="flex-item">
+                  <label for="nome">Nome:</label>
+                  <input type="text" id="nome" name="nome" required maxlength="50" />  
+                </div>
+                <div class="flex-item">
+                  <label for="radSex01">Homem</label>
+                  <input type="radio" name="Sexo" id="radSex01" value="Homem" required />
+    
+                  <label for="radSex02">Mulher</label>
+                  <input type="radio" name="Sexo" id="radSex02" value="Mulher required" />    
+                </div>
+                <div class="flex-item">
+                  <label for="raca">Raça:</label>
+                  <select name="raca" id="raca" required>
+                    <optgroup label="Anão">
+                      <option value="anao-da-colina">Anão da Colina</option>
+                      <option value="anao-da-montanha">Anão da Montanha</option>
+                    </optgroup>
+                    <optgroup label="Elfo">
+                      <option value="elfo-da-floresta">Elfo da Floresta</option>
+                      <option value="alto-elfo">Alto Elfo</option>
+                      <option value="elfo-negro">Elfo Negro</option>
+                    </optgroup>
+                    <option value="Humano">Humano</option>
+                    <option value="Tiefling">Tiefling</option>
+                  </select>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Selecione uma Classe</legend>
+              <div class="grid-container">
+                <figure class="grid-item imgClasse">
+                  <img
+                    name="imgClasse"
+                    src="/imagens/guerreiro_01.png"
+                    title="Guerreiro"
+                    alt="Classe Guerreiro"
+                  />
+                  <!-- <figcaption>
+                    <label for="guerreiro">Guerreiro</label>
+                    <input type="radio" name="Classe" id="Guerreiro" value="Guerreiro" checked/> 
+                  </figcaption> -->
+                </figure>
+
+                <figure class="grid-item imgClasse">
+                  <img
+                    name="imgClasse"
+                    src="/imagens/mago_01.png"
+                    title="Mago"
+                    alt="Classe Mago"
+                  />
+                  <!-- <figcaption>
+                    <label for="mago">Mago</label>
+                    <input type="radio" name="Classe" id="Mago" value="Mago"/> 
+                  </figcaption> -->
+                </figure>
+
+                <figure class="grid-item imgClasse">
+                  <img
+                    name="imgClasse"
+                    src="/imagens/druida_01.png"
+                    title="Druida"
+                    alt="Classe Druida"
+                  />
+                  <!-- <figcaption>
+                    <label for="druida">Druida</label>
+                    <input type="radio" name="Classe" id="Druida" value="Druida"/> 
+                  </figcaption> -->
+                </figure>
+
+                <figure class="grid-item imgClasse">
+                  <img
+                    name="imgClasse"
+                    src="/imagens/bardo_01.png"
+                    title="Bardo"
+                    alt="Classe Bardo"
+                  />
+                  <!-- <figcaption>
+                    <label for="bardo">Bardo</label>
+                    <input type="radio" name="Classe" id="Bardo" value="Bardo"/> 
+                  </figcaption>                 -->
+                </figure>
+              </div>
+              
+              <iframe
+                id="video"
+                class="embeddedVideo"
+                width="727"
+                height="409"
+                src="https://www.youtube.com/embed/BgvHNlgmKro"
+                frameborder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                async
+              >
+              </iframe>
+
+              <button id="button" class="btnConfirmar">Confirmar</button>
+            </fieldset>
+          </form>
+        </section>
+      </main>
+      <!-- Footer -->
+      <footer class="main-footer">&copy; SOS Ilha Games</footer>
+      <script src="../js/main.js"></script>
+      <script src="../js/jogador.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de cadastro</title>
+</head>
+<body>
+    <h1>Página de Cadastro</h1>
+    <form id="Formulario" action="/" method="POST">
+        <fieldset>
+            <legend>Novo Usuário</legend>
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="name" name="nome"/>
+            <br/>
+    
+            <label for="email">Digite seu e-mail:</label>
+            <input type="email" id="email" name="email"/>
+            <br/>
+    
+            <label for="password">Digite sua senha:</label>
+            <input type="password" id="password" name="senha"/>
+            <br/>
+    
+            <label for="confirmPassword">Repita sua senha:</label>
+            <input type="password" id="confirmPassword" name="senhaConfimacao"/>
+            <br/>
+    
+            <input type="submit" value="Submit"/>
+        </fieldset>
+    </form>
+    <script src="./js/main.js"></script>
+</body>
+</html>

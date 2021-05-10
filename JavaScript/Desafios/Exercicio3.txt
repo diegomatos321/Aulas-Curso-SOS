@@ -1,0 +1,9 @@
+Exercício 3: Realize um sorteio identico à mega sena. Instruções
+	1º: Crie uma função responsável pelo sorteio, essa função irá receber a QUANTIDADE de números a serem sorteados.
+	3º: Crie uma array responsável por guardar os números.
+	2º: Dentro da função, realize um loop pela quantidades de números a serem sorteados. Exemplo: Se forem pedidos para serem sorteados 10 números, o loop devera occorrer 10 vezes.
+	3º: No loop, use Math.random para sortear os números e, em seguida, guarde-os na array.
+	4º: Quando finaliza-do o loop, retorne a nova Array, assim poderemos usar a nossa função da seguinte maneira:
+		let sorteioDezNumeros = sortear(10);
+		console.log(sorteioDezNumeros);
+	Atenção: Lembre-se que no sorteio da mega sena NÃO há números repetidos. Também não há números negativos e nem maiores que 60. 

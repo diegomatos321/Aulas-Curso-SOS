@@ -1,0 +1,3 @@
+[ ] - Baixar e instalar Node
+[ ] - Baixar e instalar Git
+[ ] - Baixar e instalar NPM

@@ -1,0 +1,113 @@
+-Resumo do programa-
+Para o Módulo JavaScript:
+
+Nota: Essa parte é válida apenas para a turma de sábado.
+
+A turma de sábado teve aulas comigo de JavaScript Moderno, e agora está no meio do módulo de Phaser, aprenderam comigo os pontos mais importantes do JavaScript que auxiliarão muito eles em projetos futuros, principalmente no entendimento de como o JavaScript em si funciona, somada à isso, eu também apresentei muitos conceitos à eles relacionado ao desenvolvimento de games, incluindo:
+
+	[x] - Diferenças das variáveis: let, var e const.
+	[x] - Manipulação de strings.
+	[x] - Entendimento sobre funcionamento dos loops.
+	[x] - Arrays em JavaScript e seus métodos *básicos*: push, pop, shift, unshift, splice e slice.
+	[x] - Arrays em JavaScript e seus métodos *avançados*: indexOf, foreach, map e filter. Os restante dos métodos como o: find, não foram vistos por questões didáticas.
+	[x] - Tudo sobre funções *Síncronas* em JavaScript, do básico ao avançado.
+	[x] - Uso da biblioteca interna do JavaScript para nos auxiliar a realizar cálculos algébricos para nossos jogos, como: Math.Random (para gerar números aleatórios) e Math.sqrt (Encontrar raiz quadrada de nossos números) e mais alguns outros.
+	[x] - Os escopos das variáveis.
+	[x] - Manipulação básica do DOM (Document Object Model). Essa é a base dos FrameWorks modernos requisitados no mercado de trabalho, como: React, Angular e Vue.
+	[x] - Introdução a funções *Assincronas*, como: setInterval.
+	[x] - Noções Básico de SEO.
+	[x] - Objetos, do básico ao avançado: declaração de objetos, propriedades, valores, iterar objetos, desestruturação, etc.
+	[x] - Como funciona os Módulos em JavaScript.
+	[x] - Apresentação da arquitetura de desenvolvimento SOLID.
+	[x] - Uso do canvas para desenhar imagens/formas dinâmicas.
+	[x] - Calcular colisões simples nos nossos jogos, utilizando do método matemático.
+	[x] - Desenvolvimento do "Jogo do Quadrado".
+	[x] - Uso do Git e GitHub para versionar nossos projetos, localmente e remotamente.
+	
+Também há pequenos detalhes vistos, como os melhores formatos para imagens na web - de acordo com a google - entre outros.
+
+Realizei pequenos exercícios com os alunos, para fixar a matéria:
+
+	[x] - Estoque de loja simples.
+	[x] - Sorteio simples da mega sena.
+	[x] - Criação de uma página com formulário, para realizarmos validações através do JavaScript, entre outro (Nome do exercício: Criar Página de RPG).
+
+Para o Módulo Phaser:
+
+Ambas as turmas estão agora no Módulo Phaser, a turma de Sábado já está na reta final. Diferente do módulo anterior (JavaScript), aqui não há muito o que destacar, pois, o Phaser sendo um FrameWork, ele já possui diversas funções prontas para facilitar o desenvolvimento de jogos em JavaScript, permitindo eu, ensinar-los alguns jogos mais complexos, como:
+
+	[x] - FlappyBird.
+	[x] - Jogo da Nave.
+	[x] - Super Mario Bros.
+	
+Neste módulo eu apenas apresento aos alunos diferentes maneiras de se alcançar a mesma, ou até mesmo, diferentes mecânicas, utilizando do Phaser, e também explico como ele funciona.
+Além disso, o jogo do FlappyBird é especial, pois salvaremos a pontuação do jogador no próprio navegador do cliente (ou seja, no próprio computador dele), dessa forma, quando ele sair e voltar para jogar, sua melhor pontuação ainda estará salva !
+
+Os exercícios de fixação desse módulo foram os próprios jogos.
+
+Para o Módulo de Node:
+
+Esse é, no meu ponto de vista, um dos módulos mais importantes, ele também é um módulo extremamente teórico. Pois aqui não ensinarei apenas como funciona o JavaScript no lado do servidor (_Server Side_ - Até agora eu estive com os alunos no lado do Cliente, _Client Side_) mas também irei introduzi-los à como funciona a internet no geral. Qual é a relação dos servidores com os clientes, os protocolos, o que é o famoso HTTP e etc. Veremos, em ordem:
+
+	[x] - Introdução ao NodeJS.
+	[x] - HTTP Server.
+	[x] - Usando NPM.
+	[x] - Introdução ao Express.
+	[x] - Aula Sobre Rotas.
+	[x] - Introdução ao Mongoose.
+	[x] - RESTful API.
+	[x] - Revisando HTML e CSS (Eu chamo de "Pré-React")
+	[x] - Salvando os dados no MongoDB.
+	[x] - JavaSript Assíncrono.
+	[x] - Criando o banco de dados para o FlappyBird.
+	
+Realizei pequenos exercícios com os alunos, para fixar a matéria:
+
+	[x] - Adaptação da página com formulário (Esse é um "link" entre o Módulo de JavaScript e o Atual, para demonstrar ao aluno que está tudo conectado, iremos apenas melhorar e adaptar o exercício "Criar Página de RPG" com nossos novos conhecimentos)
+	
+No final desse módulo, também finalizaremos o jogo do FlappyBird. Iremos conectar ele à uma API criado por nós, que irá conversar com um banco de dados. Isso irá permitir que desenvolvemos um sistema simples de ranqueamento onde irá mostrar os 10 melhores jogadores, e como os dados estarão salvos em um banco de dados, nenhuma informação é mais necessária ser salva no computador do cliente...
+
+Para o Módulo React:
+
+React, assim como o Phaser, é um FrameWork. Logo, não há muito o que destacar, entretanto, sua maior diferença ao Phaser, é que ele nos possibilita a criar páginas mais "_User Friendly_", ou seja, elas são mais agradáveis ao usuário final, mais dinâminas e bonitas. Sem contar que o React é um conceito totalmente novo para os alunos, pois ele é o que chamamos de SPA, Single Page Applications, o que vai contrário a quase tudo que foi visto no módulo anterior, onde eu explico como funciona a relação de Servidores e Clientes mais tradicionais. Basicamente, criaremos nosso site inteiro em uma única página, iremos apenas simular o comportamento de uma página tradicional utilizando JavaScript (caso necessário), como fazer elementos sumirem ou aparecerem. Irei apenas ensinar aos alunos como o React funciona e como ele "pensa":
+
+	[x] - O que são SPA (Single Page Applications, em portugues, Aplicações de Páginas únicas).
+	[x] - Introdução ao JSX.
+	[x] - Diferença de uma página tradicional para uma página SPA.
+	[x] - Componentes em React.
+	[x] - State (estados) em React (Não abordaremos o que chamamos de _React Hooks_, nesse módulo).
+	[x] - Estilos em React.
+	[x] - Comunicação com uma API.
+	
+Nota: Eu ainda estou planejando esse módulo, apesar de já saber o que ensinar aos alunos, algumas aulas/tópicos ainda não tem nome, pois são continuações de aulas anteriores.
+
+Realizei pequenos exercícios com os alunos, para fixar a matéria:
+
+	[x] - Desenvolvimento de uma página de previsão do Tempo
+	[x] - Desenvolvimento de uma página de receitas (Esse exercício ainda estou em dúvida, mas será algo nessa ideia)
+	
+Esse módulo, assim como Phaser, irei ensinar os principais conceitos do React através desses pequenos projetos, ou seja, na prática.
+
+Para o Módulo React Native:
+
+React Native, assim como tudo visto durante o curso, é um FrameWork desenvolvido em *JavaScript*, mas ele é baseado em React, tem como o objetivo de desenvolver aplicações Nativas para dispositivos móveis. Esse módulo aparenta ser bem fácil pois os alunos já terão visto *todos* os conceitos *principais*, além do mais, React Native é apenas uma biblioteca baseada em React, e os alunos já terão visto React.
+
+Em relação aos tópicos:
+
+Ainda em análise
+
+Em relação aos exercícios:
+
+Ainda em análise
+
+------------------
+Nota Final 1: No final do curso, nada impede o aluno de desenvolver uma aplicação web conectada a uma API própria que se comunica a um banco de dados, e o mesmo serviço também disponível nativamente para dispositivos móveis. Só para exemplificar, pense na empresa _Casas Bahia_, eles possuem um Site, acessível pelo navegador, e um App, que pode ser baixado na Play Store, o aluno poderá chegar a um resultado "próximo" (digo "próximo" pois há várias questoes de segurança, que não foram vistos no curso, envolvidos em app de pagamentos, como casas bahias, mas foi só para exemplificar)
+
+Nota Final 2: *Vale ressaltar também* que em todos os módulos, principalmente no Phaser, apesar de eu já saber o quê "esperar", eu tento, de vez em quando, errar de propósito, para proporcionar com que os alunos interajam na aula e proponham suas próprias soluções aos problemas, além de realizar pesquisas na internet (No caso do Phaser, na própria documentação dele). Também ensino eles a ler e *entender* as mensagens de erros. Isso proporciona o desenvolvimento de autonomia para o aluno, pois dou algumas dicas de pesquisas.
+
+Nota Final 3: Os pais e coordenadores podem acompanhar o andamento de todas as aulas através do GitHub que o professor utiliza para versionar as aulas: 
+	https://github.com/diegomatos-aulas/
+Caso tenham interesse, também podem acessar o GitHub pessoal do Professor e seu site, respectivamente:
+	https://github.com/diegomatos321
+	https://devdiegomatos.com.br/
+Conteúdos mais teóricos são disponibilizados no Classroom da turma, onde todos os alunos tem acesso

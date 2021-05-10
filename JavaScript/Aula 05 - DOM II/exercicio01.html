@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula DOM</title>
+</head>
+
+<body>
+    <h1>Aprendendo DOM</h1> <!-- Elemento H1 -->
+    <h2>Essa aula fará voce entender o DOM</h2> <!-- Elemento H2 -->
+    <div>
+        <p>Aqui temos <strong>um</strong> texto</p> <!-- Elemento p -->
+        <p id="texto"></p> <!-- Elemento p com id = "texto" -->
+    </div>
+
+    <script>
+        window.document.write("Olá Mundo") // Escreve no documento a frase "Olá mundo"
+
+        let texto = document.getElementById("texto"); // Guarda/Armazena na variável "texto" o elemento de id "texto"
+        texto.innerText = "Diego"; // A variável "texto" é do tipo dinâmica, logo tudo feito nela afeta o elemento
+                                // Mudamos o conteudo dentro da id "texto" para "Diego"
+
+        let corpo = window.document.body; // Guarda/Armazena na variável "corpo" o body do documento
+        corpo.style.backgroundColor = "blue"; // A variavel "corpo" também é do tipo dinâmica
+                                            // Mudando o estilo da cor de fundo da variavel "corpo" também altera o "pai"
+                                            // Ou seja, o corpo do documento
+
+        let div = document.getElementsByTagName("div")[0]; // Guarda/Armazena na variavel "div" o PRIMEIRO elemento de Tag "div" que encontrar
+        div.style.backgroundColor = "green"; // A variavel "div" também é do tipo dinâmica
+                                            // Alteramos a cor de fundo da variavel "div", tambem altera a div do documento
+    // ATENÇÃO: O style dos elementos corresponde ao CSS
+    </script>
+</body>
+
+</html>

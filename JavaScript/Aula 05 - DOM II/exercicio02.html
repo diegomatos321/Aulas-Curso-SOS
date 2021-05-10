@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula DOM</title>
+</head>
+<body>
+    <h1>Soma de números</h1> <!-- Elemento H1 -->
+	<input type= "number" name= "txt1" id = "txt1"> <!-- Elemento Input de id "txt1" -->
+	<input type= "number" name= "txt2" id = "txt2"> <!-- Elemento Input de id "txt2" -->
+	<input type= "button" value= "somar" onclick = "somar()"> <!-- Elemento input com o evento "onclick" chamando a função somar() -->
+												<!-- Ou seja, quando clicar no butao, irá disparar um evento chamado "onclick", que ficará responsável por chamar a função somar() -->
+	<div id= "res">Resultado</div> <!-- Elemento div com id "res" -->
+	<script>
+		function somar () // Função somar
+		{
+			let txt1 = document.getElementById("txt1"); // Guarda/Armazena na variável "txt1" o elemento de id "txt1"
+			let txt2 = document.getElementById("txt2"); // Guarda/Armazena na variável "txt2" o elemento de id "txt2"
+            let resultado = document.getElementById("res"); // Guarda/Armazena na variável "resultado" o elemento de id "res", que é uma div
+            
+			let n1 = Number(txt1.value); // Guarda/Armazena na variável "n1" a conversão do valor dentro do input txt1 para o tipo Number
+            let n2 = Number(txt2.value); // Guarda/Armazena na variável "n2" a conversão do valor dentro do input txt2 para o tipo Number
+            
+			let soma = n1 + n2; // Guarda/Armazena na variável "soma" a soma dos números 1 e 2 (n1 e n2)
+			resultado.innerText = `A soma entre ${n1} e ${n2} é igual a ${soma}`; //
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+Exercicio 2: Desenvolva um programa que conte o número de letras e palavras em uma frase. Instruções:
+	1º: Crie uma função responsável por contar letras e palavras. Essa função irá receber por parâmetro a frase a ser lida.
+	2º: Crie as váriaveis responsáveis por armazenar a quantidade de letras e palavras.
+	3º: Através de um loop, percorra a frase recebida e verifique e conte as letras e palavras....
+	4º: Trate das exceções, lembre-se que números não sao letras nem palavras, assim como caracteres especiais como: @,#, etc.
+	5º: Mostre ao Usuário o resultado, usando console.log ou alert
+	Dica: Separe a frase sempre que houver um espaço (character: " ")

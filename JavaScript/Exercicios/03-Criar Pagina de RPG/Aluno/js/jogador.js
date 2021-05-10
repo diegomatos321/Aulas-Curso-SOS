@@ -1,0 +1,1 @@
+// Crie um objeto para o jogador aqui e exporte ele

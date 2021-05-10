@@ -1,0 +1,32 @@
+/* Fonts */
+@font-face {  
+  font-family: 'Old London';  
+  font-style: normal;  
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local('Old London'),       
+  url('../fonts/OldLondon.woff2') format('woff2'),        
+  url('../fonts/OldLondon.woff') format('woff');
+}
+/* Fonts End */
+
+/* Geral */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Old London";
+}
+
+/* Geral End */
+
+/* Tipografia */
+
+h1 { font-size: var(--tamanhoH1)}
+h2 { font-size: var(--tamanhoH2)}
+h3 { font-size: var(--tamanhoH3)}
+
+p, label, input, select, button { font-size: var(--tamanhoGeral)}
+figcaption{ font-size: var(--tamanhoFigCaption)}
+
+/* Tipografia End */
